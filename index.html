@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background Generator</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="gradient-generator-style.css">
+</head>
+<body id="display">
+	<h1>Background Generator</h1>
+
+	<div class="radio">
+		<input id="toRight" type="radio" name="direction" value="to right"> Left to right
+		<input id="toBottom" type="radio" name="direction" value="to bottom" checked> Top to Bottom
+	</div>
+
+	<input class="color1" type="color" name="color1" value="#2AFF00">
+	<input class="color2" type="color" name="color2" value="#00FFCD">
+
+	<h2>Current CSS Background</h2>
+	<div class="center">
+		<textarea rows="2" cols="80" readonly></textarea><br>
+		<button class="copybtn" id="copy">Copy</button>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

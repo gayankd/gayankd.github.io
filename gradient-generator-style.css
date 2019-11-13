@@ -1,0 +1,64 @@
+html {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.color1, .color2 {
+	border: none;
+	background-color: #383838;
+}
+
+h1 {
+	font: 600 3.5em 'Raleway', sans-serif;
+	color: rgba(0,0,0,0.7);
+	width: 100%
+	text-transform: uppercase;
+	letter-spacing: 1em;
+}
+
+h2 {
+	font: 900 1.5em 'Raleway', sans-serif;
+	color: rgba(0,0,0,0.7);
+	text-transform: uppercase;
+	letter-spacing: 1em;
+}
+
+div {
+	width: 100%;
+	text-align: center;
+}
+
+.radio {
+	font: 900 1em 'Raleway', sans-serif;
+	margin-bottom: 20px;
+}
+
+textarea {
+	font: 900 1em 'Raleway', sans-serif;
+	color: rgba(0,0,0,0.7);
+	letter-spacing: 0.1em;
+	background-color: transparent;
+	border: none;
+}
+
+.copybtn {
+	font: 1em 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: black;
+	border: 2px solid black;
+	padding: 5px 15px;
+	border-radius: 12px;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: transform 0.75s;
+}
+
+.copybtn:hover {
+	transform: scale(1.25);
+}
